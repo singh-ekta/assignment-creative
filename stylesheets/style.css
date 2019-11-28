@@ -13,20 +13,21 @@ Dark green:#28b485;
 body{
 	font-family: "lato", sans-serif;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 12px;
 	line-height:1.7;
 	color:#777; 
 	padding: 20;
-
 }
 
+
+/* header-section */
 .header{
 	height:95vh;
 	background-image: 
 	linear-gradient(
 		to right bottom,
 	 rgba(126, 213, 111, 0.8),
-	 rgba(40, 180, 131, 0.8)), url(img/clouser.png); 
+	 rgba(40, 180, 131, 0.8)), url('../img/clouser.png'); 
 	 background-size: cover;
 	 background-position: top;
 	 position: relative;
@@ -37,7 +38,6 @@ body{
 	position: absolute;
 	top:40px;
 	left:40px;
-
 }
 
 .logo{
@@ -54,7 +54,6 @@ body{
 .heading-primary{
 	color:#ffffff;
 	text-transform: uppercase;
-
 }
 
 
@@ -63,11 +62,9 @@ body{
 	font-size:50px;
 	font-weight: 400;
 	letter-spacing: 35px;
-	
 	animation-name: moveInLeft;
 	animation-duration: 1s;
 	animation-delay: 0s;
-
 }
 
 .heading-primary-sub{
@@ -78,7 +75,6 @@ body{
     animation-name: moveInRight;
 	animation-duration: 1s;
 	animation-delay: 0s;
-
 }
 
 @keyframes moveInLeft {
@@ -146,17 +142,11 @@ body{
 	background-image: radial-gradient(#55e57a, #7ed56f);
 	color:white;
 	z-index:1000;
-
 	/*transform: scale(50);*/
-
-
 }
-
-
 
 .navigation_nav{
 	height:100vh;
-	/*width:100%;*/
 	position:fixed;
 	top:0;
 	right:0;
@@ -165,27 +155,19 @@ body{
 	opacity:0;
 }
 
-
-
 .navigation_list{
 	position:absolute;
 	top:50%;
 	left:50%;
 	transform: translate(-50%, -50%);
 	list-style: none;
-	text-align: center;
-
-
+	text-align: center
 }
-
-
 
 .navigation_item{
 	margin:1rem;
 
 }
-
-
 
 .navigation_link{
 	font-size: 2rem;
@@ -197,8 +179,6 @@ body{
 	background-image: linear-gradient(120deg red 0%, orange 50%, white 50%);
 	background-size: 100%;
 	transition: all .4s;
-
-
 }
 
 .navigation_link:hover{
@@ -226,18 +206,17 @@ input [type="checkbox"]navi-toggle:checked ~ .navigation_background{
 
 }*/
 
+
+
+/* section-aboust-us */
 .container{
     width: 1100px;
     margin: auto;
     overflow: hidden;
-   /* background: linear-gradient(120deg,  lightgray 0%, white 50%, lightgray 50%);*/
-  /* background-color: #F5F5F5;*/
-
 }
 .ptb-100{
     padding-top: 100px;
-    padding-bottom: 100px;
-   
+    padding-bottom: 100px;  
 }
 
 .left-area{
@@ -260,7 +239,6 @@ hr{
     width: 45px;
 }
 
-
 p{
 	 font-size: 16px;
     font-weight: 300;
@@ -275,9 +253,7 @@ p{
        text-shadow: 0px 0px 0px black;
        padding: 20px 50px 20px 50px;
        box-shadow: 0px 0px 6px 0px black;
-
 }
-
 
 #para-aboutus:hover {
        animation: aboutus 5s linear infinite;
@@ -290,16 +266,14 @@ p{
 
 
 
-
+/* our-exparities */
 progress{
     height: .3em;
     width: 346px;
     border: none;
     border-radius: 5px;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
-
 
 small{
     
@@ -320,15 +294,12 @@ progress::-webkit-progress-value {
     background: rgb(34, 33, 33);
 }
 
-
 #para-expertise{
 	    animation: expertise 5s linear infinite;
        text-shadow: 0px 0px 0px black;
        padding: 20px 50px 20px 50px;
        box-shadow: 0px 0px 6px 0px black;
-
 }
-
 
 #para-expertise:hover {
        animation: expertise 5s linear infinite;
@@ -339,13 +310,11 @@ progress::-webkit-progress-value {
 
 
 
-
+/* section-google-plush */
 .left-area-google-plus{
     width: 33.33%;
-    float: left;
-    
+    float: left;   
 }
-
 
 h2{
     font-size: 16px;
@@ -356,24 +325,19 @@ h2{
     display: flex;
 } 
 
-
 #google-plus{
     height:auto;
     width:40px;
     /*padding-left: 30px;
-    padding-right: 30px;*/
-        
+    padding-right: 30px;*/      
 }
-
 
 #para-google{
 	    animation: expertise 5s linear infinite;
        text-shadow: 0px 0px 0px black;
        padding: 20px 50px 20px 50px;
        box-shadow: -1px 1px lightgray;
-
 }
-
 
 #para-google:hover {
        animation: expertise 5s linear infinite;
@@ -383,6 +347,8 @@ h2{
 }
 
 
+
+/* section-banner-area */
 
 .left-area-banner{
     width: 55%;
@@ -398,81 +364,79 @@ h2{
     background-color: #f1f1f1;
 }
 
-
 #banner-one{
     height:auto;
     width:100%;    
 }
 
+.full-content{
+    padding: 0;
+    margin: 171px auto;
+}
 
+.sec-letsmake{
+    margin: 0;
+    width: 390px;
+    margin: auto;
+}
 
 #heading-letsmake{
      font-size: 35px;
-	font-weight: 400;
-	color:currentColor;
-    padding-top: 130PX;
-    padding-left: 150px;
-    padding-top: 130PX;
-    padding-bottom: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-weight: 400;
+    color: currentColor;
+    padding: 0;
+    width: 100%;
+     
 }
-
 
 #line-letsmake{
     width:38px;
     border: 2px solid #f7d31b;
-    margin: 50px 150px 50px 150px;
+    margin: 35px 0px;
+ }
+
+.letsmake{
+    margin: auto;
+    padding: 0;
+    width: 100%;
+
 }
-
-
 
 #para-letsmake{
-	     animation: letsmake 5s linear infinite;
-	     text-shadow: 0px 0px 0px black;
-	     padding: 20px 50px 20px 50px;
-	     box-shadow: 1px 1px 1px lightgray;
-	     width: 360px;
-	     margin: 60px 107px 60px 107px;	
+	animation: letsmake 5s linear infinite;
+    text-shadow: 0px 0px 0px black;
+    /*box-shadow: 1px 1px 1px lightgrey;*/
+    width: 100%;
+    margin: auto;
+    padding: 0;
 
 }
 
 
-#para-letsmake:hover {
-       animation: letsmake 5s linear infinite;
-       text-shadow: 0px 0px 0px black;
-       padding: 20px 50px 20px 50px;
-       box-shadow: inset 0px -1px 1px 0px black;
-}
-
-.portfolio{
-
-}
+/* section-portfolio */
 
 ul{
 	display:inline;
-
 }
 
 li{
 	display: inline-block;
     padding: 10px;
-
 }
+
 ul,li, a{
 	    text-decoration: none;
 	    font-family: "lato",sans-serif;
 	    font-size: 15px;
 	    color: #777;
 	    font-weight: 600;
-
 }
 a:hover{
 	color:#28b485;
 }
 
 
-
+/* section-boxes */
 .boxes{
     background-color: white;
     min-height: 100px;
@@ -492,9 +456,6 @@ a:hover{
 	box-shadow: inset 0px -1px 5px #0000004d;
     border-radius: 15px;
 }
-
-
-
 
 .spin {
   cursor: pointer;
@@ -516,10 +477,9 @@ a:hover{
 }*/
 
 
-
+/* section-viewport */
 .sec-viewport{
-    overflow: hidden;   
-    
+    overflow: hidden;     
 }
 
 .sec-viewport .container-flued {
@@ -550,6 +510,7 @@ a:hover{
 
 
 
+/* section-paragraph */
 
 .sec-para .container{
     text-align: center;
@@ -563,8 +524,7 @@ a:hover{
     font-weight: 600px;
     width:50%;
     justify-content: center;
-    display:unset;
-   
+    display:unset;  
 }
 #para-sec:hover{
     color:black;   
@@ -580,37 +540,33 @@ a:hover{
 
 
 
-
-
+/* section-banner-area */
 .sec-banner{
     width:100%;
 }
 
 #banner-img{
     height:auto;
-    width:100%;
-    
+    width:100%;   
 }
 
 
 
+/* section-numbers */
 .list-number{
 	text-align: center;
-
-
 }
 
 
 #ul-num{
 	margin: auto;
-
 }
 
 #li-num{
-	 padding: 60px;
+	width: 230px;
     font-size: 50px;
     font-family: "lato",sans-serif;
-
+     padding: 0;
 }
 
 #web{
@@ -621,7 +577,7 @@ a:hover{
 
 
 
-
+/* section-img-clouser */
 .sec-clouser{
     width:100%;   
 }
@@ -632,34 +588,29 @@ a:hover{
 	linear-gradient(
 		to right bottom,
 	 rgba(126, 213, 111, 0.8),
-	 rgba(40, 180, 131, 0.8)), url(img/clouser.png); 
+	 rgba(40, 180, 131, 0.8)), url(../img/clouser.png); 
 	 background-size: cover;
 	 background-position: top;
 	 position: relative;
-	clip-Path: polygon(0 100px, 100% 0, 100% 450px, 0 100%);
+     clip-Path: polygon(0 130px, 100% 0, 100% 100%, 0 100%);
 }
 
 
 
 
-
+/* section-user */
 .sec-user{
     overflow: hidden;
 }
-
 
 #user-1{
     width: 33%;
     float: left;
 }
 
-
-
 #user-1 .inner_user{
     padding: 10px;
 }
-
-
 
 #user-img{
     /* height:100%; */
@@ -671,8 +622,7 @@ a:hover{
     color: gray;
     font-size: 15px;
     padding: 10px 135px 0px 135px;;
-    display:block;
-    
+    display:block;   
 }
 
 #ceo{
@@ -681,9 +631,11 @@ a:hover{
     display:block;
 }
 
+
+
+/* section-pricing-card */
 .sec-pricing-plans{
-    background-color: #f1f1f1;
-    
+    background-color: #f1f1f1;   
 }
 
 #card-1{
@@ -695,6 +647,7 @@ a:hover{
     background-color:  white;
     margin: 20px;  
 }
+
 #card-1:hover{
        box-shadow:  0px 0px 12px 3px #11bf40;
    border-radius: 8px;
@@ -742,35 +695,34 @@ h5{
     /* box-shadow: 5px 3px 5px 3px #dfd7d7; */
     box-shadow: unset 7px 0px 7px 0px #11bf40;
 }
+.pricing-card{
+    margin:75px;
+}
 
 .list_pricing{
-	          margin: 100px 0 100px 0;
+	          margin: 80px 0 80px 0;
 }
 
 .ul_pricing,#li-p,a{
 	display:block;
-
 }
 
 #li-p{
-	 display: block;
+	display: block;
     text-align: center;
     font-size: 11px;
-    padding: 2px;
-
+    padding: 3px 0 3px 0;
+    border: 0px solid green;
+    width: fit-content;
+    margin: auto;
 }
 
-ul,li,a{
-	list-style: unset;
-}
-
-.ul_pricing,#li-p,a{
-	list-style: unset;
-
-}
-
-.pricing-card{
-	margin:75px;
+.ul_pricing a{
+    width: 90px;
+    padding: 1px;
+    text-align: center;
+    background-color: aliceblue;
+    font-weight: 200;
 }
 
 
@@ -778,54 +730,48 @@ ul,li,a{
 
 
 
+/* section-get-in-touch */
 .sec-get-in-touch{
     height:750px;
     width:100%;
 }
-
 
 .left-area.getintouch{
     width: 50%;
 }
    
 .right-area.getintouch{
-    width: 50%;
-   
-   
+    width: 50%; 
 }
 
-
-#heading-getintouch{
-	      padding: 95px;
+.login-form{
+    width: 70%;
+    margin: 100px;
 }
-    
 
-
-#getintouch-hr{
-	margin: -75px 95px 0 95px;
-}
 
 .login{
-    padding: 50px 0 50px 0;
+    margin: 0px;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    position: relative;
 }
 
 
 input{
-    width: 60%;
-    padding: 15px 20px;
-    margin: 10px 73px 10px 95px;
+    width: 100%;
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid black;
+    padding: 22px 0 22px 0;
 }
 
 textarea{
-    width: 60%;
-    padding: 15px 20px;
-   margin: 10px 73px 10px 95px;
+    width: 100%;
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid black;
+    padding: 22px 0 22px 0;
 }
 
 
@@ -836,7 +782,8 @@ button{
     height: 30px;
     width: 200px;
     font-size: 14px;
-    margin: 0 95px 0 95px;
+    margin: 10px 0 10px 0;
+  
 }
 
 button:hover{
@@ -847,7 +794,7 @@ button:hover{
 }
 
 
-
+/* section-footer */
 .sec-footer{
    height: 500px;
     width:100%;
@@ -891,7 +838,7 @@ button:hover{
      
 }
 
-
+/* section-mytheme */
 .sec-mytheme{
     background-color: #251E1E ;	
 }
