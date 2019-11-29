@@ -239,12 +239,11 @@ ul,li, a{
      margin: 0 22px;
  
  }/* get-in touch-section */
-
- .sec-get-in-touch{
-    height: 600px;
-    width:100%;
+/* number-section */
+#li-num{
+	width: 135px;
+    font-size: 35px;   
 }
-
 
 .left-area.getintouch{
     width: 50%;
@@ -265,12 +264,7 @@ ul,li, a{
         width: 121px;
         font-size: 12px;
     }
-
-
-
-
 }
-
 
 
 
@@ -285,11 +279,269 @@ ul,li, a{
     }
        
        .container{
-           width: 320px;
+           width: 400px;
        }
    
        .ptb-100{
            padding-top: 40px;
            padding-bottom: 40px;
        }
-    }   
+
+
+
+    body{
+        font-family: "lato", sans-serif;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 1.7;
+        color: #777;
+        padding: 15px;
+    }
+    p{
+        font-size: 13px;
+       font-weight: 200;
+       color: darkgray;
+       border-radius: 5px;
+       letter-spacing: 1.7px;
+       text-align: justify; 
+   }
+
+   h1{
+    font-size: 35px;
+    width:100%;
+}
+
+.left-area{
+    width: 100%;
+    padding: 40px 0 40px 0;
+  
+}
+.right-area{
+    width: 100%; 
+}
+/* about-us-section */
+#para-aboutus{
+    width:100%;
+    padding: 20px 25px 20px 25px;
+}
+
+/* our-exparities */
+progress{
+    width: 80%;
+}
+
+progress:after{
+     padding-left: 250px; 
+}
+#para-expertise{
+    width:100%;
+    padding: 20px 25px 20px 25px;
+}
+
+
+/* google-plus-section */
+.left-area-google-plus{
+    width: 100%;
+    padding: 40px 0 40px 0; 
+}
+
+#google-plus{
+    float: left;
+    height:auto;
+    width: 65px; 
+    
+}
+h2{
+    padding: 13px 10px 13px 10px;
+    font-size: 18px;
+}
+#para-google{
+    width: 100%;
+} 
+
+
+/*lets-make-section */
+.sec-baner{
+    display:block;
+    
+}
+.sec-letsmake{
+    width:100%;
+    
+}
+.left-area-banner{
+    width: 100%;
+    height:unset;
+   
+}
+.right-area-banner{
+    width: 100%;
+    background-color: #f1f1f1;
+    height:unset;
+
+}
+
+#heading-letsmake{
+    font-size: 35px;
+    text-align: unset;
+    padding: 0 85px 0 85px;
+    }
+    
+    #line-letsmake{
+        margin: 35px 85px 35px 85px;
+    
+     }
+    
+    .full-content{
+        padding: 0;
+        margin: 24px auto;
+    }
+   
+ /* portfolio-section */
+ .portfolio{
+    width: 100%; 
+    display: -webkit-box;
+
+ }
+ .left-area{
+     width:100%;
+ }
+ .right-area{
+    width:100%;
+ }
+
+  ul,li, a{
+    font-size: 16px;
+    padding:1px;
+    display: block;
+    }
+/* bosexs-section */
+    .item-1{
+        border:15px solid white;
+         height: 300px;
+         width: 300px; 
+     }
+   
+     .boxes{
+         text-align: center;
+     }
+
+/* number-section */
+
+	#li-num{
+        width:100%;
+        font-size: 50px;   
+    }
+
+
+
+/* user-section */
+#user-1{
+    width: 100%;
+}
+#barry-1{
+    padding: 10px 152px 0px 152px;
+}
+
+#ceo{
+    padding: 0px 175px;
+}
+
+
+
+/* pricing-section */
+#card-1{
+ 
+    height: 622px;
+    width: 270px;
+    box-shadow: 0 0 6px 0px #00000073;
+ }
+ .pricing-card{
+     margin:15px;
+ }
+ h5{
+     font-size: 20px;
+ }
+ 
+ .h-1{
+    margin: 70px;
+    height: 8rem;
+    width: 50%;
+    
+ }
+ #doller{
+     font-size:20px;
+     
+ }
+ 
+ #num{
+     font-size: 67px;
+ }
+ 
+ #btn-1{
+     height: 30px;
+     width: 181px;
+     margin: 0 45px 0 45px;
+ 
+ }
+/* number-section */
+
+
+.left-area.getintouch{
+    width: 100%;
+    height: 600px;
+
+}
+ /* get-in touch-section */  
+.right-area.getintouch{
+    width: 100%;
+    height: 600px; 
+}
+.login-form{
+    margin: auto;
+    width: 60%;
+    }
+
+    button{
+        height: 30px;
+        width: 200px;
+        font-size: 14px;
+        margin: 10px 0 10px 0;
+    }
+/* section-footer */
+.sec-footer{
+    height: auto;
+     width:100%;
+     background-color: #333131;
+    display: -webkit-box;
+ }
+    
+   
+.footer-one{
+    margin:0 0 0 0;
+     display: table-caption;
+ }
+ #img-footer{
+     display:block;
+ }
+ .sec-google-logo{
+     width:100%;
+ }
+ .footer-one ul li a {
+     font-size: 15px;
+   
+ }
+ 
+ .footer-one ul{
+     text-align: justify;
+ }
+ 
+ .footer-secound ol li a {
+     font-size: 15px;
+   
+ }
+ /* sec-eighteen */
+ 
+ }
+ /* END MEDIA-QUERY-575 */
+     
