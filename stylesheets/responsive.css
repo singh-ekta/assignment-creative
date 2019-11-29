@@ -106,8 +106,14 @@ h5{
 /* get-in touch-section */
 .login-form{
     width: 55%;
-    margin: 100px;
+    margin: 100px; 
+    }
+
 }
+
+
+
+
 
 /******** media-767-section *******/
 @media screen and (max-width: 767px){
@@ -119,8 +125,153 @@ h5{
     }
 
 
+    body{
+        font-family: "lato", sans-serif;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 1.7;
+        color: #777;
+        padding: 15px;
+    }
+    p{
+        font-size: 11px;
+       font-weight: 200;
+       color: darkgray;
+       border-radius: 5px;
+       letter-spacing: 1.7px;
+       text-align: justify; 
+   }
+   h1{
+       font-size:25px;
+   }
+
+/* our-exparities */
+ progress{
+     width: 215px;
+}
+
+progress:after{
+      padding-left: 160px; 
+}
+
+
+
+/*lets-make-section */
+#heading-letsmake{
+ font-size:25px; 
+ }
+ 
+ #line-letsmake{
+    margin: 35px 47px 35px 47px;
+  }
+ 
+ 
+ 
+ .full-content{
+     padding: 0;
+     margin: 24px auto;
+ }
+
+.sec-letsmake{
+    width:290px;
+    
+}
+
+/* portfolio-section */
+ul,li, a{
+    font-size: 10px;
+    padding:1px;
+}
+/* boxes-section */
+.item-1{
+ 
+    height: 35%;
+    width: 25%;
+  
+   }
+
+
+/* number-section */
+#li-num{
+	width: 135px;
+    font-size: 35px;   
+}
+/* user-section */
+#barry-1{
+    padding: 10px 49px 0px 48px;
+}
+
+#ceo{
+    padding: 0px 72px;
+}
+
+
+/* pricing-section */
+#card-1{
+    margin: 6px;  
+    height: 493px;
+     width: 170px;
+ }
+ .pricing-card{
+     margin:15px;
+ }
+ h5{
+     font-size: 20px;
+ }
+ 
+ .h-1{
+    height: 5rem;
+    width: 48%;
+    margin: 45px;
+ }
+ #doller{
+     font-size:12px;
+     
+ }
+ 
+ #num{
+     font-size: 40px;
+ }
+ 
+ #btn-1{
+     height: 30px;
+     width: 121px;
+     margin: 0 22px;
+ 
+ }/* get-in touch-section */
+
+ .sec-get-in-touch{
+    height: 600px;
+    width:100%;
+}
+
+
+.left-area.getintouch{
+    width: 50%;
+    height: 600px;
 
 }
+   
+.right-area.getintouch{
+    width: 50%;
+    height: 600px; 
+}
+.login-form{
+    width: 55%;
+    margin: 65px;
+    }
+
+    button{
+        width: 121px;
+        font-size: 12px;
+    }
+
+
+
+
+}
+
+
 
 
 
