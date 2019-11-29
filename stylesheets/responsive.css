@@ -270,7 +270,7 @@ ul,li, a{
 
 
 
-
+/* start-media-query-576 */
 @media screen and (max-width: 576px){
     /* common-css */
     h1,h2,h3,h4,h6{
@@ -323,6 +323,7 @@ ul,li, a{
 #para-aboutus{
     width:100%;
     padding: 20px 25px 20px 25px;
+    box-shadow: inset -1px -1px 5px 2px #00000014;
 }
 
 /* our-exparities */
@@ -336,6 +337,7 @@ progress:after{
 #para-expertise{
     width:100%;
     padding: 20px 25px 20px 25px;
+    box-shadow: inset -1px -1px 5px 2px #00000014;
 }
 
 
@@ -357,6 +359,9 @@ h2{
 }
 #para-google{
     width: 100%;
+
+    box-shadow: inset -1px -3px 5px 0px #0000001f;
+
 } 
 
 
@@ -395,6 +400,12 @@ h2{
     .full-content{
         padding: 0;
         margin: 24px auto;
+    }
+
+    #para-letsmake{
+        box-shadow: inset -1px -1px 5px 2px #00000014;
+        padding: 20px 25px 20px 25px;
+
     }
    
  /* portfolio-section */
@@ -513,13 +524,14 @@ h2{
     height: auto;
      width:100%;
      background-color: #333131;
-    display: -webkit-box;
+   
  }
     
    
 .footer-one{
     margin:0 0 0 0;
-     display: table-caption;
+    text-align: center;
+    padding: 0;
  }
  #img-footer{
      display:block;
@@ -529,16 +541,29 @@ h2{
  }
  .footer-one ul li a {
      font-size: 15px;
+     font-size: 16px;
+     padding: 1px;
+     display: block;
    
  }
  
  .footer-one ul{
-     text-align: justify;
+    text-align: center;
+}
+ .footer-one{
+    margin: 25px 0 25px 0;
  }
- 
+.footer-secound ol{
+    margin: 25px 0px 25px 0px;
+   
+}
+.footer-secound{
+    display: block;
+
+}
  .footer-secound ol li a {
      font-size: 15px;
-   
+    
  }
  /* sec-eighteen */
  
